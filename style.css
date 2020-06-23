@@ -1,0 +1,54 @@
+body,html {
+  height: 100%;
+  width:100%; 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1
+{
+	font-size: 3rem;
+	color:	#2F4F4F;
+}
+.buffer
+{
+height:100px;
+}
+.space
+{
+	height:250px;
+}
+.links
+{
+	color:	#DB7093;
+	font-size: 30px;
+}
+hr
+{
+	border-color: black;
+	border-width: 5px;
+	max-width: 205px;
+}
+.btn
+{
+	font-weight: 700;
+	border-radius:300px;
+	text-transform: uppercase;
+}
+.btn-primary
+{
+	background-color: black;
+	border-color: red;
+}
+.btn-primary:hover
+{
+background-color: #ee4b08;
+border-color: #ee4b08;
+border-width: 4px;
+}
+.btn-xl
+{
+	padding: 1rem 2rem;
+}
